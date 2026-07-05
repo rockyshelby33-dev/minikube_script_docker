@@ -1,0 +1,1 @@
+# minikube_script_docker
