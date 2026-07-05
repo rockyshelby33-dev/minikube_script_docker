@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: medical-pod
+  labels:
+    app: shreyas-app
+spec: 
+  containers:
+    - name: pod2-cont1
+      image: aarushtechnologies/medical:latest

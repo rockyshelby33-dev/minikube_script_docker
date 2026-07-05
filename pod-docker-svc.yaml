@@ -1,0 +1,10 @@
+apiVersionapiVersion: v1
+kind: Service 
+metadata:
+    name: medical-svc
+spec: 
+  selector:
+   app: shreyas-app
+  ports:
+    - port: 80
+  type: NodePort
